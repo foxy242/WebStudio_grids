@@ -1,0 +1,27 @@
+.poster__item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+    width: 100%;
+    @media screen and (min-width: 480px){
+        width: 450px;
+    }
+
+    @media screen and (min-width: 768px){
+        width: 354px;
+    }
+    
+    @media screen and (min-width: 1200px){
+        width: 270px;
+    }
+}
+
+.poster__list {
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 56px;
+    padding-bottom: 94px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
