@@ -54,6 +54,17 @@ body {
   text-align: center;
 }
 
+.header__active::before {
+  position: absolute;
+  bottom: -41px;
+  right: -20px;
+  display: block;
+  width: calc(100% + 40px);
+  height: 2px;
+  background: #FFFFFF;
+  content: "";
+}
+
 .header__pages {
   margin-top: 32px;
   margin-right: auto;
@@ -139,10 +150,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: #212121;
-}
-
-.header__link:hover {
-  color: #2196f3;
 }
 
 .contact__link:hover {
